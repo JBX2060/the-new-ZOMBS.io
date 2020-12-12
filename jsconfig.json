@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/server",
+    "paths": {
+      "template/*": [
+        "src/template/*"
+      ],
+      "data/*": [
+        "src/data/*"
+      ],
+      "*": [
+        "src/game/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "src/v2/pyZOMBIA.io/node_modules"
+  ]
+}

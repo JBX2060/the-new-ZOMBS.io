@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="96" height="96" viewBox="0 0 138 138" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#ccc;stroke-width:10px;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#333;stroke-miterlimit:10;}.cls-2,.cls-4{fill:#fbb03b;}.cls-4{stroke-width:4px;}</style>
+  </defs>
+  <rect class="cls-1" x="410.75" y="449.77" width="128" height="128" rx="12" ry="12" transform="matrix(0, 1, -1, 0, 582.781677, -405.75)"/>
+  <circle class="cls-4" cx="20" cy="118" r="6"/>
+  <circle class="cls-4" cx="20" cy="20" r="6"/>
+  <circle class="cls-4" cx="118" cy="118" r="6"/>
+  <circle class="cls-4" cx="118" cy="20" r="6"/>
+</svg>

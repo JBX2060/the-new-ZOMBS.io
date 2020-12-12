@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="180" height="52" viewBox="-85 -11 308 88" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#875f45;}.cls-1,.cls-2,.cls-4{stroke:#333;stroke-miterlimit:10;stroke-width:9px;}.cls-2{fill:#4d4d4d;}.cls-3{fill:#740c10;opacity:0.7;}.cls-4{fill:#a247ef;}</style>
+    <style>.cls-1{fill:#4d4d4d;}.cls-1,.cls-2,.cls-4{stroke:#333;stroke-miterlimit:10;stroke-width:9px;}.cls-2{fill:#875f45;}.cls-3{fill:#740c10;}.cls-4{fill:#a247ef;}</style>
+  </defs>
+  <g id="g-1" transform="matrix(1, 0, 0, 1, -0.015376, -0.566719)">
+    <rect class="cls-1" x="73.33" y="18.1" width="56.28" height="22.87" rx="4.33" ry="4.33" transform="translate(114.54 133.61) rotate(-90)"/>
+    <path class="cls-1" d="M151.29,17.43h-32.5a4.26,4.26,0,0,0-2.46.78l-11.57,8.17a4.26,4.26,0,0,0,0,7l11.57,8.17a4.26,4.26,0,0,0,2.46.78h32.5a4.26,4.26,0,0,0,2.46-.78l11.57-8.17a4.26,4.26,0,0,0,0-7l-11.57-8.17A4.26,4.26,0,0,0,151.29,17.43Z" transform="translate(42.61 2.6)"/>
+    <rect class="cls-2" x="4" y="28.58" width="140.41" height="9.15" rx="4.03" ry="4.03"/>
+    <polygon class="cls-3" points="208.11 32.46 194.52 40.7 194.52 24.23 208.11 32.46"/>
+    <circle class="cls-4" cx="-6.63" cy="40.82" r="17.31" transform="translate(-4.37 34.34) rotate(-86.54)"/>
+    <circle class="cls-4" cx="59.74" cy="40.63" r="17.31" transform="translate(58.19 100.41) rotate(-86.54)"/>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+/**
+* UiChat
+*/
+
+.hud-chat {
+  position: relative;
+  display: block;
+  width: 520px;
+  height: 220px;
+  margin: -10px 0 20px -10px !important;
+  padding: 0 0 40px;
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  line-height: 24px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  z-index: 10;
+  transition: background 0.15s ease-in-out;
+}
+
+.hud-chat.is-focused {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hud-chat .hud-chat-input {
+  position: absolute;
+  display: block;
+  width: 90%;
+  height: 40px;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  color: #eee;
+  border: 0;
+  padding: 10px 15px;
+  line-height: 20px;
+  font-size: 13px;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 0 0 4px 4px;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.hud-chat .hud-chat-input:focus {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.hud-chat .hud-chat-input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hud-chat .hud-chat-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hud-chat .hud-chat-input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hud-chat .hud-chat-input:-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hud-chat .hud-chat-messages {
+  display: block;
+  height: 180px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.hud-chat .hud-chat-message {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.hud-chat .hud-chat-message strong {
+  color: #a79aef;
+}
+
+.hud-chat .hud-chat-channel {
+  padding: 5px;
+  border-radius: 0 0 0 4px;
+  transition: opacity 0.15s ease-in-out;
+  opacity: 0;
+  height: 40px;
+  line-height: 0;
+  width: 50px;
+}
+
+.hud-chat.is-focused .hud-chat-channel {
+  opacity: 1;
+}

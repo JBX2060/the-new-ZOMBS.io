@@ -1,0 +1,307 @@
+/**
+* UiMenuParty
+*/
+
+.hud-menu-party {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 420px;
+  margin: -270px 0 0 -300px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  border-radius: 4px;
+  z-index: 15;
+}
+
+.hud-menu-party h3 {
+  display: block;
+  margin: 0;
+  line-height: 20px;
+}
+
+.hud-menu-party h3 small {
+  margin: 0 0 0 4px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hud-menu-party .hud-party-tabs {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  margin: 20px 0 0;
+}
+
+.hud-menu-party .hud-party-tabs a {
+  display: block;
+  float: left;
+  padding: 0 14px;
+  margin: 0 1px 0 0;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu-party .hud-party-tabs a.is-active, .hud-menu-party .hud-party-tabs a:hover, .hud-menu-party .hud-party-tabs a:active {
+  background: rgba(0, 0, 0, 0.2);
+  color: #eee;
+}
+
+.hud-menu-party .hud-party-tabs a:first-child {
+  border-radius: 3px 0 0;
+}
+
+.hud-menu-party .hud-party-tabs a:last-child {
+  border-radius: 0 3px 0 0;
+}
+
+.hud-menu-party .hud-party-grid {
+  display: none;
+  position: relative;
+  height: 240px;
+  margin: 0 0 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  border-radius: 3px;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link {
+  position: relative;
+  display: block;
+  float: left;
+  width: 240px;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+  border-radius: 3px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link:hover, .hud-menu-party .hud-party-grid .hud-party-link:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link.is-active {
+  background: #47950d !important;
+  cursor: not-allowed !important;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link.is-disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link strong {
+  display: block;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-link span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+}
+
+.hud-menu-party .hud-party-grid.is-disabled .hud-party-link {
+  opacity: 0.2 !important;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-joining {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 110px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  z-index: 5;
+}
+
+.hud-menu-party .hud-party-grid .hud-party-empty {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 110px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  z-index: 5;
+}
+
+.hud-menu-party .hud-party-members {
+  display: block;
+  position: relative;
+  height: 240px;
+  margin: 0 0 20px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  border-radius: 0 3px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link {
+  position: relative;
+  display: block;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+  border-radius: 3px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link strong {
+  display: block;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .btn {
+  height: 34px;
+  line-height: 34px;
+  margin: 5px 0;
+  box-shadow: none;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .btn.is-disabled {
+  background: #b3353c !important;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .hud-member-can-sell {
+  padding: 0 14px 0 10px;
+  margin-left: 10px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .hud-member-can-sell::before {
+  content: ' ';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 6px 0 0;
+  background: rgba(0, 0, 0, 0.4);
+  vertical-align: -3px;
+  border-radius: 2px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .hud-member-can-sell .hud-can-sell-tick {
+  display: none;
+  position: absolute;
+  top: 14px;
+  left: 26px;
+  width: 6px;
+  height: 12px;
+  border: solid #777;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+  border-radius: 2px;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .hud-member-can-sell.is-active .hud-can-sell-tick {
+  display: block;
+}
+
+.hud-menu-party .hud-party-members .hud-member-link .hud-member-actions .hud-member-can-sell.is-disabled {
+  background: #444 !important;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.hud-menu-party .hud-party-actions {
+  height: 40px;
+}
+
+.hud-menu-party .hud-party-tag {
+  display: block;
+  float: left;
+  width: 160px;
+  height: 40px;
+  line-height: 24px;
+  padding: 8px 14px;
+  background: #eee;
+  border: 0;
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.hud-menu-party .hud-party-tag:disabled {
+  opacity: 0.4;
+}
+
+.hud-menu-party .hud-party-share {
+  display: block;
+  float: left;
+  width: 240px;
+  height: 40px;
+  line-height: 24px;
+  padding: 8px 14px;
+  margin: 0 0 0 20px;
+  background: #eee;
+  border: 0;
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.hud-menu-party .hud-party-share:disabled {
+  opacity: 0.4;
+}
+
+.hud-menu-party .hud-party-visibility {
+  display: block;
+  float: left;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0 0 20px;
+  text-align: center;
+  text-decoration: none;
+  background: #47950d;
+  color: #eee;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu-party .hud-party-visibility:hover, .hud-menu-party .hud-party-visibility:active {
+  background: #64b820;
+}
+
+.hud-menu-party .hud-party-visibility.is-private {
+  background: #b3353c;
+}
+
+.hud-menu-party .hud-party-visibility.is-private:hover, .hud-menu-party .hud-party-visibility.is-private:active {
+  background: #cb575b;
+}
+
+.hud-menu-party .hud-party-visibility.is-disabled {
+  background: #b3353c !important;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}

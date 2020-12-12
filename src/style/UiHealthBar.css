@@ -1,0 +1,37 @@
+/**
+* UiHealthBar
+*/
+
+.hud-health-bar {
+  display: block;
+  position: relative;
+  width: 220px;
+  height: 36px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+  font-family: 'Hammersmith One', sans-serif;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-health-bar::after {
+  display: block;
+  content: 'HEALTH';
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  bottom: 5px;
+  line-height: 27px;
+  font-size: 14px;
+  color: #eee;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+
+.hud-health-bar .hud-health-bar-inner {
+  display: block;
+  height: 26px;
+  background: #64a10a;
+  border-radius: 3px;
+  transition: width 0.2s linear;
+}

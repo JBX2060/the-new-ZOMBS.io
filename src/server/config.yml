@@ -1,0 +1,36 @@
+host: "127.0.0.1"
+port: 8000
+
+default_nickname: "Player"
+
+map:
+  width: 2400
+  height: 2400
+
+max_players: 32
+max_player_viewport: 1500
+
+trees_amount: 20
+stones_amount: 20
+neutral_camp_amount: 1
+neutrals_per_camp: 3
+
+max_players_per_party: 6
+
+time_between_nights: 12000
+time_between_leaderboard: 2000
+
+zombie_min_spawn_distance: 500
+zombie_max_spawn_distance: 600
+
+min_wall_distance: 4
+max_player_distance: 12
+max_stash_distance: 18
+
+local_chat_distance: 3000
+allow_global_chat: true
+
+god_mode: true
+bans:
+  - 0.0.0.0
+

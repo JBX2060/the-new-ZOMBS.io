@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120" height="120" viewBox="0 0 172.5 172.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#845e48;stroke-width:10px;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#333;stroke-miterlimit:10;}.cls-2,.cls-4{fill:#666;}.cls-4{stroke-width:4px;}</style>
+    <style>.cls-1{fill:#845e48;stroke-width:8px;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#666;}.cls-2,.cls-3{stroke-width:6px;}.cls-3{fill:#845e48;}</style>
+    <style>.cls-1{fill:#845e48;}.cls-1,.cls-2{stroke:#333;stroke-miterlimit:10;stroke-width:5px;}</style>
+  </defs>
+  <rect class="cls-1" x="410.75" y="449.77" width="128" height="128" rx="12" ry="12" transform="matrix(0, 1, -1, 0, 599.713074, -387.866791)" style="stroke-width: 8;"/>
+  <circle class="cls-4" cx="36.943" cy="135.884" r="6"/>
+  <circle class="cls-4" cx="36.943" cy="37.884" r="6"/>
+  <circle class="cls-4" cx="134.943" cy="135.884" r="6"/>
+  <circle class="cls-4" cx="134.943" cy="37.884" r="6"/>
+  <path class="cls-1" d="M 149.926 108.57 L 151.196 111.78 C 143.168 113.462 134.837 110.928 129.106 105.06 C 115.734 91.957 121.562 69.292 139.595 64.263 C 157.551 59.256 174.233 75.482 169.726 93.57 L 166.726 93.05 L 158.846 85.17 C 158.425 82.692 157.276 80.394 155.546 78.57 C 150.445 73.349 142.064 73.295 136.896 78.45 C 131.66 83.66 131.545 92.098 136.636 97.45 C 138.446 99.26 140.306 100.76 142.636 101.24 Z" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -18.600351, 127.812774)"/>
+  <rect class="cls-2" x="64.682" y="61.717" width="26.5" height="13.51" rx="6.76" ry="6.76"/>
+  <rect class="cls-2" x="64.682" y="98.827" width="26.5" height="13.51" rx="6.76" ry="6.76"/>
+  <rect class="cls-3" y="51.796" width="60" height="70" rx="15.63" ry="15.63" x="11.827"/>
+  <path class="cls-1" d="M 143.827 86.776 C 143.827 111.649 125.95 131.796 103.888 131.796 C 81.827 131.796 84.879 113.42 84.879 88.557 C 84.879 63.694 81.847 41.796 103.888 41.796 C 125.929 41.796 143.827 61.913 143.827 86.776 Z" style="stroke-width: 8;"/>
+  <circle class="cls-2" cx="496.84" cy="513.01" r="18.79" transform="matrix(0.7092, -0.705005, 0.705006, 0.709202, -600.634583, 72.459908)"/>
+  <circle class="cls-3" cx="496.84" cy="513.01" r="8.1" transform="matrix(0.709203, -0.705006, 0.705005, 0.709202, -600.753357, 72.460503)"/>
+</svg>

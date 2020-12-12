@@ -1,0 +1,120 @@
+/**
+* UiSpellIcons
+*/
+
+.hud-spell-icons {
+  display: block;
+  position: relative;
+  left: -20px;
+  z-index: 10;
+}
+
+.hud-spell-icons .hud-spell-icon {
+  display: block;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 0 0 1px;
+  padding: 56px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-align: center;
+  text-indent: -9999px;
+  overflow: hidden;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-spell-icons .hud-spell-icon::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-spell-icons .hud-spell-icon:hover, .hud-spell-icons .hud-spell-icon:active {
+  color: #eee;
+  cursor: pointer;
+}
+
+.hud-spell-icons .hud-spell-icon:hover::before, .hud-spell-icons .hud-spell-icon:active::before {
+  opacity: 1;
+}
+
+.hud-spell-icons .hud-spell-icon.is-disabled:hover, .hud-spell-icons .hud-spell-icon.is-disabled:active, .hud-spell-icons .hud-spell-icon.is-on-cooldown:hover, .hud-spell-icons .hud-spell-icon.is-on-cooldown:active {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: not-allowed;
+}
+
+.hud-spell-icons .hud-spell-icon.is-disabled:hover::before, .hud-spell-icons .hud-spell-icon.is-disabled:active::before, .hud-spell-icons .hud-spell-icon.is-on-cooldown:hover::before, .hud-spell-icons .hud-spell-icon.is-on-cooldown:active::before {
+  opacity: 0.6;
+}
+
+.hud-spell-icons .hud-spell-icon:first-child {
+  border-radius: 0 4px 0 0;
+}
+
+.hud-spell-icons .hud-spell-icon:last-child {
+  border-radius: 0 0 4px 0;
+}
+
+.hud-spell-icons .hud-spell-icon .hud-spell-icon-cooldown {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+}
+
+.hud-spell-icons .hud-spell-icon .hud-spell-icon-cooldown .hud-spell-icon-cooldown-left {
+  position: absolute;
+  left: -50%;
+  width: 56px;
+  height: 56px;
+  background-position: 28px 0%;
+}
+
+.hud-spell-icons .hud-spell-icon .hud-spell-icon-cooldown .hud-spell-icon-cooldown-right {
+  position: absolute;
+  right: -50%;
+  width: 56px;
+  height: 56px;
+  background-position: -28px 0%;
+}
+
+.hud-spell-icons .hud-spell-icon.is-on-cooldown .hud-spell-icon-cooldown {
+  display: block;
+}
+
+.hud-spell-icons .hud-spell-icon.is-disabled .hud-spell-icon-cooldown {
+  display: block;
+}
+
+.hud-spell-icons .hud-spell-icon.is-disabled .hud-spell-icon-cooldown .hud-spell-icon-cooldown-left {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.2) 50%, transparent 50%) !important;
+}
+
+.hud-spell-icons .hud-spell-icon.is-disabled .hud-spell-icon-cooldown .hud-spell-icon-cooldown-right {
+  background-image: linear-gradient(-90deg, rgba(0, 0, 0, 0.2) 50%, transparent 50%) !important;
+}
+
+.hud-spell-icons .hud-spell-icon[data-type=HealTowersSpell]::before {
+  background-image: url('/asset/image/ui/inventory/inventory-heal-towers-spell.svg');
+}
+
+.hud-spell-icons .hud-spell-icon[data-type=TimeoutItem]::before {
+  background-image: url('/asset/image/ui/inventory/inventory-timeout.svg');
+}

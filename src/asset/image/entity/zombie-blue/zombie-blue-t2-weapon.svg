@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="126" height="41" viewBox="-22 -10 170 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#875f45;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:8px;}.cls-2{fill:#4d4d4d;}.cls-3{fill:#528dbb;}</style>
+    <style>.cls-1{fill:#4d4d4d;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:8px;}.cls-2{fill:#875f45;}.cls-3{fill:#528dbb;}</style>
+  </defs>
+  <g id="g-1" transform="matrix(1, 0, 0, 1, 30.148993, 2.533502)">
+    <rect class="cls-1" x="4" y="9.78" width="65.24" height="8.07" rx="4.03" ry="4.03"/>
+    <path class="cls-2" d="M106,40.8l-4.56-5a5.13,5.13,0,0,0-5.22-1.49l-8.52,2.44a5.13,5.13,0,0,0-3.72,5l.09,5.62A5.13,5.13,0,0,0,88,52.21l8.59,2.18a5.13,5.13,0,0,0,5.17-1.65l4.4-5.18A5.13,5.13,0,0,0,106,40.8Z" transform="translate(-18.08 -30.06)" style="fill: rgb(77, 77, 77);"/>
+    <circle class="cls-3" cx="32.72" cy="47.09" r="9.5" transform="translate(-34.34 46.85) rotate(-86.54)"/>
+    <circle class="cls-3" cx="69.14" cy="46.99" r="9.5" transform="translate(-0.01 83.11) rotate(-86.54)"/>
+  </g>
+</svg>

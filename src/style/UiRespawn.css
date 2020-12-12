@@ -1,0 +1,119 @@
+/**
+* UiRespawn
+*/
+
+.hud-respawn {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  z-index: 18;
+}
+
+.hud-respawn .hud-respawn-wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin: -20px 0 0;
+  color: #eee;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hud-respawn .hud-respawn-main {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+
+.hud-respawn .hud-respawn-main, .hud-respawn .hud-respawn-main .hud-respawn-info {
+  display: block;
+  float: left;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.hud-respawn .hud-respawn-info {
+  width: 600px;
+  padding: 20px 20px 30px;
+}
+
+.hud-respawn .hud-respawn-info h2 {
+  color: #eee;
+  margin: 0 0 30px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hud-respawn .hud-respawn-info p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  margin: 0;
+}
+
+.hud-respawn .hud-respawn-info p strong {
+  color: #eee;
+  font-weight: bold;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share {
+  margin: 40px 0 -20px;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-twitter-btn, .hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-facebook-btn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0 5px;
+  color: #eee;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border: 0;
+  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-twitter-btn {
+  background: #1b95e0;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-twitter-btn:hover {
+  background: #0c7abf;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-facebook-btn {
+  background: #4267b2;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-share .hud-respawn-facebook-btn:hover {
+  background: #365899;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-btn {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 40px;
+  margin: 40px 0 0;
+  background: #47950d;
+  color: #eee;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-respawn .hud-respawn-info .hud-respawn-btn:hover, .hud-respawn .hud-respawn-info .hud-respawn-btn:active {
+  cursor: pointer;
+  background: #64b820;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="150" height="54" viewBox="0 0 308 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#8c6239;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:12px;}.cls-2{fill:#4d4d4d;}.cls-3{fill:#bfa03a;}</style>
+  </defs>
+  <rect class="cls-1" x="76.761" y="33.24" width="162.94" height="11.46" rx="4.03" ry="4.03"/>
+  <polygon class="cls-2" points="267.071 4.43 279.121 10.18 291.711 14.64 296.171 27.23 301.921 39.28 296.171 51.34 291.711 63.92 279.121 68.38 267.071 74.13 255.011 68.38 242.421 63.92 237.971 51.34 232.221 39.28 237.971 27.23 242.421 14.64 255.011 10.18 267.071 4.43"/>
+  <circle class="cls-3" cx="-16.01" cy="31.21" r="22.66" transform="matrix(0.060352, -0.998177, 0.998177, 0.060352, 79.561317, 33.040001)"/>
+  <circle class="cls-3" cx="70.87" cy="30.96" r="22.66" transform="matrix(0.060352, -0.998177, 0.998177, 0.060352, 161.451601, 119.530008)"/>
+</svg>

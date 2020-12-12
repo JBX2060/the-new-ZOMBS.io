@@ -1,0 +1,103 @@
+/**
+* Ui
+*/
+
+.hud {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.hud .hud-top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.hud .hud-top-left > * {
+  margin: 0 0 20px;
+}
+
+.hud .hud-top-center {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.hud .hud-top-center > * {
+  margin: 0 auto 20px;
+}
+
+.hud .hud-top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.hud .hud-top-right > * {
+  margin: 0 0 20px;
+}
+
+.hud .hud-bottom-left {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  flex-direction: column-reverse;
+}
+
+.hud .hud-bottom-left > * {
+  margin: 20px 0 0;
+}
+
+.hud .hud-bottom-center {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.hud .hud-bottom-center > * {
+  margin: 20px auto 0;
+}
+
+.hud .hud-bottom-right {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  flex-direction: column-reverse;
+}
+
+.hud .hud-bottom-right > * {
+  margin: 20px 0 0;
+}
+
+.hud .hud-center-left {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.hud .hud-center-left > * {
+  margin: 0 20px 0 0;
+}
+
+.hud .hud-center-right {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.hud .hud-center-right > * {
+  margin: 0 0 0 20px;
+}

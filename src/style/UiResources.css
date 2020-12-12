@@ -1,0 +1,74 @@
+/**
+* UiResources
+*/
+
+.hud-resources {
+  display: block;
+  position: relative;
+  width: 220px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #eee;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-resources .hud-resources-resource {
+  position: relative;
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+  line-height: 34px;
+  text-align: right;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hud-resources .hud-resources-resource::before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  font-size: 13px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.4);
+  z-index: -1;
+}
+
+.hud-resources .hud-resources-wood, .hud-resources .hud-resources-gold {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hud-resources .hud-resources-wood::before {
+  content: 'WOOD';
+}
+
+.hud-resources .hud-resources-stone::before {
+  content: 'STONE';
+}
+
+.hud-resources .hud-resources-gold::before {
+  content: 'GOLD';
+}
+
+.hud-resources .hud-resources-tokens::before {
+  content: 'TOKENS';
+}
+
+.hud-resources .hud-resources-wave {
+  display: block;
+  clear: both;
+  padding: 0 10px;
+  line-height: 34px;
+  text-align: right;
+}
+
+.hud-resources .hud-resources-wave::before {
+  content: 'WAVE';
+  display: block;
+  float: left;
+  color: rgba(255, 255, 255, 0.4);
+}

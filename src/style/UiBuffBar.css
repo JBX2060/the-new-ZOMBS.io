@@ -1,0 +1,94 @@
+/**
+* UiBuffBar
+*/
+
+.hud-buff-bar {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 260px;
+  width: 36px;
+  z-index: 10;
+}
+
+.hud-buff-bar .hud-buff-bar-item {
+  position: relative;
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 10px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.hud-buff-bar .hud-buff-bar-item:hover {
+  cursor: help;
+}
+
+.hud-buff-bar .hud-buff-bar-item::before {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  line-height: 10px;
+  font-size: 9px;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #eee;
+  text-shadow: 1px 1px #111, -1px 1px #111, 1px -1px #111, -1px -1px #111;
+}
+
+.hud-buff-bar .hud-buff-bar-item::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 24px;
+  height: 24px;
+  margin: 6px auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='1']::before {
+  content: '1';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='2']::before {
+  content: '2';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='3']::before {
+  content: '3';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='4']::before {
+  content: '4';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='5']::before {
+  content: '5';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='6']::before {
+  content: '6';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='7']::before {
+  content: '7';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='8']::before {
+  content: '8';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='9']::before {
+  content: '9';
+}
+
+.hud-buff-bar .hud-buff-bar-item[data-tier='10']::before {
+  content: '10';
+}

@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "babel-plugin-wildcard",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": [
+          "./src/client"
+        ]
+      }
+    ]
+  ]
+}

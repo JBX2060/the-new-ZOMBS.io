@@ -1,0 +1,311 @@
+/**
+* Assets
+*/
+
+[data-item=Pickaxe][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t1.svg');
+}
+
+[data-item=Pickaxe][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t2.svg');
+}
+
+[data-item=Pickaxe][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t3.svg');
+}
+
+[data-item=Pickaxe][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t4.svg');
+}
+
+[data-item=Pickaxe][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t5.svg');
+}
+
+[data-item=Pickaxe][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t6.svg');
+}
+
+[data-item=Pickaxe][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t7.svg');
+}
+
+[data-item=Pickaxe][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pickaxe-t8.svg');
+}
+
+[data-item=Spear][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t1.svg');
+}
+
+[data-item=Spear][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t2.svg');
+}
+
+[data-item=Spear][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t3.svg');
+}
+
+[data-item=Spear][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t4.svg');
+}
+
+[data-item=Spear][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t5.svg');
+}
+
+[data-item=Spear][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t6.svg');
+}
+
+[data-item=Spear][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t7.svg');
+}
+
+[data-item=Spear][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-spear-t8.svg');
+}
+
+[data-item=Bow][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t1.svg');
+}
+
+[data-item=Bow][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t2.svg');
+}
+
+[data-item=Bow][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t3.svg');
+}
+
+[data-item=Bow][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t4.svg');
+}
+
+[data-item=Bow][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t5.svg');
+}
+
+[data-item=Bow][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t6.svg');
+}
+
+[data-item=Bow][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t7.svg');
+}
+
+[data-item=Bow][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bow-t8.svg');
+}
+
+[data-item=Bomb][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t1.svg');
+}
+
+[data-item=Bomb][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t2.svg');
+}
+
+[data-item=Bomb][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t3.svg');
+}
+
+[data-item=Bomb][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t4.svg');
+}
+
+[data-item=Bomb][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t5.svg');
+}
+
+[data-item=Bomb][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t6.svg');
+}
+
+[data-item=Bomb][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t7.svg');
+}
+
+[data-item=Bomb][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-bomb-t8.svg');
+}
+
+[data-item=ZombieShield][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t1.svg');
+}
+
+[data-item=ZombieShield][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t2.svg');
+}
+
+[data-item=ZombieShield][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t3.svg');
+}
+
+[data-item=ZombieShield][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t4.svg');
+}
+
+[data-item=ZombieShield][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t5.svg');
+}
+
+[data-item=ZombieShield][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t6.svg');
+}
+
+[data-item=ZombieShield][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t7.svg');
+}
+
+[data-item=ZombieShield][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t8.svg');
+}
+
+[data-item=ZombieShield][data-tier='9']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t9.svg');
+}
+
+[data-item=ZombieShield][data-tier='10']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-shield-t10.svg');
+}
+
+[data-item=HatHorns]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-hat-horns.svg');
+}
+
+[data-item=PetCARL][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t1.svg');
+}
+
+[data-item=PetCARL][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t2.svg');
+}
+
+[data-item=PetCARL][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t3.svg');
+}
+
+[data-item=PetCARL][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t4.svg');
+}
+
+[data-item=PetCARL][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t5.svg');
+}
+
+[data-item=PetCARL][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t6.svg');
+}
+
+[data-item=PetCARL][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t7.svg');
+}
+
+[data-item=PetCARL][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-carl-t8.svg');
+}
+
+[data-item=PetMiner][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t1.svg');
+}
+
+[data-item=PetMiner][data-tier='2']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t2.svg');
+}
+
+[data-item=PetMiner][data-tier='3']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t3.svg');
+}
+
+[data-item=PetMiner][data-tier='4']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t4.svg');
+}
+
+[data-item=PetMiner][data-tier='5']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t5.svg');
+}
+
+[data-item=PetMiner][data-tier='6']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t6.svg');
+}
+
+[data-item=PetMiner][data-tier='7']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t7.svg');
+}
+
+[data-item=PetMiner][data-tier='8']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-miner-t8.svg');
+}
+
+[data-item=PetGhost][data-tier='1']::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-ghost-t1.svg');
+}
+
+[data-item=HealthPotion]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-health-potion.svg');
+}
+
+[data-item=PetHealthPotion]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-pet-health-potion.svg');
+}
+
+[data-item=FasterHitPotion]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-faster-hit-potion.svg');
+}
+
+[data-item=PetWhistle]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-whistle.svg');
+}
+
+[data-item=Pause]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-timeout.svg');
+}
+
+[data-item=Invulnerable]::after {
+  background-image: url('/asset/image/ui/inventory/inventory-invulnerable.svg');
+}
+
+[data-building=Wall]::after {
+  background-image: url('/asset/image/ui/entities/entities-wall.svg');
+}
+
+[data-building=Door]::after {
+  background-image: url('/asset/image/ui/entities/entities-door.svg');
+}
+
+[data-building=SlowTrap]::after {
+  background-image: url('/asset/image/ui/entities/entities-slow-trap.svg');
+}
+
+[data-building=ArrowTower]::after {
+  background-image: url('/asset/image/ui/entities/entities-arrow-tower.svg');
+}
+
+[data-building=CannonTower]::after {
+  background-image: url('/asset/image/ui/entities/entities-cannon-tower.svg');
+}
+
+[data-building=MeleeTower]::after {
+  background-image: url('/asset/image/ui/entities/entities-melee-tower.svg');
+}
+
+[data-building=BombTower]::after {
+  background-image: url('/asset/image/ui/entities/entities-bomb-tower.svg');
+}
+
+[data-building=MagicTower]::after {
+  background-image: url('/asset/image/ui/entities/entities-mage-tower.svg');
+}
+
+[data-building=GoldMine]::after {
+  background-image: url('/asset/image/ui/entities/entities-gold-mine.svg');
+}
+
+[data-building=Harvester]::after {
+  background-image: url('/asset/image/ui/entities/entities-harvester.svg');
+}
+
+[data-building=GoldStash]::after {
+  background-image: url('/asset/image/ui/entities/entities-gold-stash.svg');
+}

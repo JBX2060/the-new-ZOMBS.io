@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120" height="120" viewBox="0 0 172.5 172.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#845e48;stroke-width:10px;}.cls-1,.cls-2{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#666;stroke-width:8px;}</style>
+    <style>.cls-1{fill:#ff931e;stroke-width:4px;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#845e48;}.cls-2,.cls-3{stroke-width:8px;}.cls-3{fill:#666;}</style>
+  </defs>
+  <rect class="cls-1" x="-1" width="128" height="128" rx="12" ry="12" transform="matrix(0, 1, -1, 0, 150.289001, 22.642431)" style="stroke-width: 8; fill: #845e48;"/>
+  <circle class="cls-2" cx="63.52" cy="64.5" r="53.48" transform="matrix(0.060352, -0.998177, 0.998177, 0.060352, 18.599007, 145.652416)" style="fill: rgb(102, 102, 102);"/>
+  <g id="Layer_1" data-name="Layer 1" transform="matrix(1.320648, 0, 0, 1.320648, 21.976049, 21.16877)">
+    <circle class="cls-1" cx="50" cy="87" r="10"/>
+    <circle class="cls-1" cx="50" cy="12" r="10"/>
+    <circle class="cls-1" cx="12" cy="52" r="10"/>
+    <circle class="cls-1" cx="87" cy="52" r="10"/>
+    <circle class="cls-1" cx="90.87" cy="90.16" r="10" transform="translate(-51.64 76.16) rotate(-45)"/>
+    <circle class="cls-1" cx="37.84" cy="37.13" r="10" transform="translate(-29.67 23.13) rotate(-45)"/>
+    <circle class="cls-1" cx="39.25" cy="92.28" r="10" transform="translate(-68.26 40.28) rotate(-45)"/>
+    <circle class="cls-1" cx="92.28" cy="39.25" r="10" transform="translate(-15.23 62.25) rotate(-45)"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3" transform="matrix(1.320648, 0, 0, 1.320648, 21.976049, 21.16877)">
+    <circle class="cls-2" cx="49.5" cy="49.5" r="30.05"/>
+    <circle class="cls-3" cx="49.5" cy="49.5" r="18.87"/>
+  </g>
+</svg>

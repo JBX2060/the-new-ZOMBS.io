@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120" height="120" viewBox="0 0 172.5 172.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#845e48;}.cls-1,.cls-2,.cls-3,.cls-4{stroke:#333;stroke-miterlimit:10;}.cls-1,.cls-3,.cls-4{stroke-width:10px;}.cls-2,.cls-4{fill:#666;}.cls-2{stroke-width:8px;}.cls-3{fill:#845e48;}</style>
+    <style>.cls-1{fill:#29abe2;stroke:#333;stroke-miterlimit:10;stroke-width:8px;}</style>
+  </defs>
+  <rect class="cls-1" x="-45" y="24" width="128" height="128" rx="12" ry="12" transform="matrix(0, 1, -1, 0, 174.413956, 66.124039)" style="fill: #845e48;"/>
+  <circle class="cls-2" cx="19.52" cy="88.5" r="53.48" transform="matrix(0.060352, -0.998177, 0.998177, 0.060352, -2.576034, 99.764038)"/>
+  <rect class="cls-3" x="-32.92" y="40.57" width="25.97" height="16" rx="5.61" ry="5.61" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 95.913966, 25.444042)"/>
+  <rect class="cls-3" x="45.08" y="40.57" width="25.97" height="16" rx="5.61" ry="5.61" transform="matrix(-0.707107, 0.707107, -0.707107, -0.707107, 200.88395, 38.974028)"/>
+  <rect class="cls-3" x="44.08" y="119.57" width="25.97" height="16" rx="5.61" ry="5.61" transform="matrix(-0.707107, -0.707107, 0.707108, -0.707108, 74.633879, 255.24413)"/>
+  <rect class="cls-3" x="-32.92" y="118.57" width="25.97" height="16" rx="5.61" ry="5.61" transform="matrix(0.707107, -0.707107, 0.707107, 0.707108, -27.916104, 20.103947)"/>
+  <rect class="cls-3" x="52.414" y="50.124" width="68" height="68" rx="5.5" ry="5.5"/>
+  <circle class="cls-4" cx="86.414" cy="84.124" r="25"/>
+  <circle class="cls-1" cx="86.134" cy="83.237" r="23.272"/>
+</svg>

@@ -1,0 +1,43 @@
+/**
+* UiAnnouncementOverlay
+*/
+
+.hud-announcement-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-announcement-overlay .hud-announcement-message {
+  position: fixed;
+  top: 160px;
+  left: 30%;
+  right: 30%;
+  color: #eee;
+  font-size: 28px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 1px 1px #333, -1px 1px #333, 1px -1px #333, -1px -1px #333;
+  text-align: center;
+  opacity: 0;
+  animation-name: hud-announcement-message;
+  animation-duration: 8000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0, 0.42, 1, 0.58);
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes hud-announcement-message {
+  0% { margin-top: 0; opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { margin-top: -100px; opacity: 0; }
+}
+
+.hud-announcement-overlay .hud-announcement-message .hud-announcement-shutdown {
+  color: #e7392b;
+}

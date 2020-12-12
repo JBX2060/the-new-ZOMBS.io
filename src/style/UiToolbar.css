@@ -1,0 +1,218 @@
+/**
+* UiToolbar
+*/
+
+.hud-toolbar {
+  display: block;
+  position: relative;
+  width: 740px;
+  z-index: 10;
+}
+
+.hud-toolbar .hud-toolbar-buildings {
+  margin: 0 0 -5px;
+  text-align: center;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building {
+  position: relative;
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  margin: 0 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: top;
+  background: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building::before {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  line-height: 10px;
+  font-size: 11px;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #eee;
+  text-shadow: 1px 1px #111, -1px 1px #111, 1px -1px #111, -1px -1px #111;
+  z-index: 1;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building::after {
+  content: ' ';
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin: 6px auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building:hover, .hud-toolbar .hud-toolbar-buildings .hud-toolbar-building:active {
+  background: rgba(0, 0, 0, 0.5);
+  color: #eee;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building:hover::after, .hud-toolbar .hud-toolbar-buildings .hud-toolbar-building:active::after {
+  opacity: 1;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building.is-disabled {
+  background: rgba(0, 0, 0, 0.4) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building.is-disabled::after {
+  opacity: 0.7 !important;
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='1']::before {
+  content: '1';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='2']::before {
+  content: '2';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='3']::before {
+  content: '3';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='4']::before {
+  content: '4';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='5']::before {
+  content: '5';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='6']::before {
+  content: '6';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='7']::before {
+  content: '7';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='8']::before {
+  content: '8';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='9']::before {
+  content: '9';
+}
+
+.hud-toolbar .hud-toolbar-buildings .hud-toolbar-building[data-key='0']::before {
+  content: '0';
+}
+
+.hud-toolbar .hud-toolbar-inventory {
+  height: 48px;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 4px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item::before {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  line-height: 10px;
+  font-size: 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #eee;
+  text-shadow: 1px 1px #111, -1px 1px #111, 1px -1px #111, -1px -1px #111;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item::after {
+  content: ' ';
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 8px auto;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item:hover, .hud-toolbar .hud-toolbar-inventory .hud-toolbar-item:active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item:hover::after, .hud-toolbar .hud-toolbar-inventory .hud-toolbar-item:active::after {
+  opacity: 1;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item.is-empty {
+  pointer-events: none;
+  opacity: 0.4 !important;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item.is-empty::after {
+  background-image: none !important;
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='1']::before {
+  content: '1';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='2']::before {
+  content: '2';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='3']::before {
+  content: '3';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='4']::before {
+  content: '4';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='5']::before {
+  content: '5';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='6']::before {
+  content: '6';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='7']::before {
+  content: '7';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='8']::before {
+  content: '8';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='9']::before {
+  content: '9';
+}
+
+.hud-toolbar .hud-toolbar-inventory .hud-toolbar-item[data-key='0']::before {
+  content: '0';
+}

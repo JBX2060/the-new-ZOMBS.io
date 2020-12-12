@@ -1,0 +1,28 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-proposal-logical-assignment-operators",
+    "babel-plugin-wildcard",
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": [
+          "./src/game",
+          "./src/server"
+        ],
+        "alias": {
+          "template": "./src/template",
+          "data": "./src/data",
+          "style": "./src/style"
+        }
+      }
+    ]
+  ]
+}

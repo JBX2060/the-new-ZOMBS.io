@@ -1,0 +1,12 @@
+{
+  "restartable": "restart",
+  "quiet": true,
+  "watch": [
+    "src/server",
+    "src/data"
+  ],
+  "execMap": {
+    "js": "babel-node"
+  },
+  "ext": "js,jsx,json,yml"
+}

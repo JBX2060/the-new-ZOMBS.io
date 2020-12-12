@@ -1,0 +1,45 @@
+/**
+* UiReconnect
+*/
+
+.hud-reconnect {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  z-index: 19;
+}
+
+.hud-reconnect .hud-reconnect-wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin: -20px 0 0;
+  color: #eee;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hud-reconnect .hud-reconnect-main {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+
+.hud-reconnect .hud-reconnect-main .hud-loading, .hud-reconnect .hud-reconnect-main .hud-loading::after {
+  width: 64px;
+  height: 64px;
+  border-width: 0.6em;
+}
+
+.hud-reconnect .hud-reconnect-main p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  margin: 30px 0 0;
+}

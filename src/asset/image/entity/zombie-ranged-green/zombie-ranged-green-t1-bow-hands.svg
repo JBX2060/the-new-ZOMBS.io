@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="33" height="44" viewBox="0 0 62.5 81.25" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#ddad68;stroke-width:8px;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#875f45;}.cls-2,.cls-3{stroke-width:3px;}.cls-3{fill:#666;}</style>
+  </defs>
+  <circle class="cls-1" cx="75.5" cy="90.5" r="18.5" transform="matrix(0.041005, -0.678187, 0.678187, 0.041004, -25.323839, 99.083221)" style="fill: rgb(89, 129, 85);"/>
+  <rect class="cls-2" x="22.19" y="37.192" width="43.273" height="3.397" rx="0.67" ry="0.67" transform="matrix(0, -1, 1.000001, 0, -7.217182, 72.816648)"/>
+  <path class="cls-3" d="M 30.918 2.239 L 28.092 13.653 C 27.979 14.103 28.308 14.543 28.771 14.564 L 34.458 14.564 C 34.921 14.543 35.249 14.103 35.137 13.653 L 32.311 2.239 C 32.133 1.703 31.441 1.56 31.066 1.983 C 30.999 2.057 30.949 2.144 30.918 2.239 Z"/>
+</svg>

@@ -1,0 +1,69 @@
+/**
+* UiMenuIcons
+*/
+
+.hud-menu-icons {
+  display: block;
+  position: relative;
+  right: -20px;
+  z-index: 10;
+}
+
+.hud-menu-icons .hud-menu-icon {
+  display: block;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin: 0 0 1px;
+  background: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  text-align: center;
+  text-indent: -9999px;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu-icons .hud-menu-icon::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu-icons .hud-menu-icon:hover, .hud-menu-icons .hud-menu-icon:active {
+  color: #eee;
+  cursor: pointer;
+}
+
+.hud-menu-icons .hud-menu-icon:hover::before, .hud-menu-icons .hud-menu-icon:active::before {
+  opacity: 1;
+}
+
+.hud-menu-icons .hud-menu-icon:first-child {
+  border-radius: 4px 0 0;
+}
+
+.hud-menu-icons .hud-menu-icon:last-child {
+  border-radius: 0 0 0 4px;
+}
+
+.hud-menu-icons .hud-menu-icon[data-type=Shop]::before {
+  background-image: url('/asset/image/ui/icons/icons-shop.svg');
+}
+
+.hud-menu-icons .hud-menu-icon[data-type=Party]::before {
+  background-image: url('/asset/image/ui/icons/icons-party.svg');
+}
+
+.hud-menu-icons .hud-menu-icon[data-type=Settings]::before {
+  background-image: url('/asset/image/ui/icons/icons-settings.svg');
+}

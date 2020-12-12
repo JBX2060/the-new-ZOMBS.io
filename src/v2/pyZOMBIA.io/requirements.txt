@@ -1,0 +1,8 @@
+cffi==1.14.0
+coloredlogs==14.0
+humanfriendly==8.1
+msgpack==1.0.0
+pycparser==2.20
+pymunk==5.6.0
+PyYAML==5.3
+websockets==8.1

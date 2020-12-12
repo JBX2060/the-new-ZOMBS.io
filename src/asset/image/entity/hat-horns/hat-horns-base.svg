@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="83" height="83" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#fbb03b;stroke:#333;stroke-miterlimit:10;stroke-width:6px;}</style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1" transform="matrix(1, 0, 0, 1, 4.943265, 61.56612)">
+    <path class="cls-1" d="M90.78,75.63c21.83,3.73,25.28,16.57,25.42,23.8,0,1.61,1.84,1.8,2.7.29,5.54-9.62,13.95-31.81-13.92-47.61-1.82-1-4.32-.14-5.9,2.07L89.25,67.94C87,71,87.86,75.13,90.78,75.63Z" transform="translate(-17.99 -48.69)"/>
+    <path class="cls-1" d="M54.77,75.63C32.94,79.37,29.49,92.2,29.35,99.43c0,1.61-1.84,1.8-2.7.29C21.11,90.11,12.7,67.92,40.57,52.12c1.82-1,4.32-.14,5.9,2.07l9.84,13.75C58.52,71,57.7,75.13,54.77,75.63Z" transform="translate(-17.99 -48.69)"/>
+  </g>
+</svg>

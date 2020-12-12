@@ -1,0 +1,51 @@
+/**
+* UiPipOverlay
+*/
+
+.hud-pip-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.hud-pip-overlay .hud-pip-resource-gain {
+  position: absolute;
+  color: #eee;
+  font-size: 14px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 1px 1px #333, -1px 1px #333, 1px -1px #333, -1px -1px #333;
+  opacity: 1;
+  animation-name: hud-pip-resource-gain;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes hud-pip-resource-gain {
+  from { margin-top: 0; opacity: 1; }
+  to { margin-top: -20px; opacity: 0; }
+}
+
+.hud-pip-overlay .hud-pip-damage {
+  position: absolute;
+  color: #f0958c;
+  font-size: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 1px 1px #333, -1px 1px #333, 1px -1px #333, -1px -1px #333;
+  opacity: 1;
+  animation-name: hud-pip-damage;
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes hud-pip-damage {
+  from { margin-top: 0; opacity: 1; }
+  to { margin-top: -20px; opacity: 0; }
+}

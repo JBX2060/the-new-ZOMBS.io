@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120" height="120" viewBox="0 0 172.5 172.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#fcc875;}.cls-2,.cls-4,.cls-5{fill:#845e48;}.cls-2,.cls-3,.cls-4,.cls-5{stroke:#333;stroke-miterlimit:10;}.cls-2,.cls-3{stroke-width:8px;}.cls-3{fill:#666;}.cls-4{stroke-width:5px;}.cls-5{stroke-width:10px;}</style>
+    <style>.cls-1{fill:#845e48;stroke-width:10px;}.cls-1,.cls-2{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#666;stroke-width:8px;}</style>
+  </defs>
+  <rect class="cls-1" x="58" y="57" width="128" height="128" rx="12" ry="12" transform="matrix(0, 1, -1, 0, 206.850632, -36.131622)" style="stroke-width: 8;"/>
+  <circle class="cls-2" cx="122.52" cy="121.5" r="53.48" transform="matrix(0.060352, -0.998177, 0.998177, 0.060352, -42.299367, 201.328308)"/>
+  <rect class="cls-1" x="73.04" y="83.15" width="84.79" height="4.48" rx="2.24" ry="2.24" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -60.435116, 73.236804)" style="stroke-width: 0; fill: rgb(252, 200, 117);"/>
+  <rect class="cls-1" x="72.04" y="152.15" width="84.79" height="4.48" rx="2.24" ry="2.24" transform="matrix(0.707107, 0.707107, -0.707105, 0.707105, 108.824877, -69.102912)" style="stroke-width: 0; fill: rgb(252, 200, 117);"/>
+  <rect class="cls-2" x="122.12" y="145.47" width="79.88" height="17.53" rx="8.76" ry="8.76" transform="matrix(0.354944, -0.934888, 0.934887, 0.354945, -73.51493, 217.606766)"/>
+  <rect class="cls-2" x="122.12" y="77.47" width="79.88" height="17.53" rx="8.76" ry="8.76" transform="matrix(0.354944, 0.934888, -0.934888, 0.354944, 151.305052, -129.283126)"/>
+  <rect class="cls-3" x="47.135" y="68.597" width="118" height="37" rx="4.33" ry="4.33"/>
+  <rect class="cls-4" x="50.635" y="81.097" width="111" height="11"/>
+  <path class="cls-5" d="M 48.835 69.597 L 48.835 104.597 C 48.835 113.717 43.895 120.387 38.835 118.147 L 14.035 107.267 C 10.465 105.697 7.965 100.117 7.965 93.717 L 7.965 80.477 C 7.965 74.077 10.465 68.477 14.035 66.927 L 38.805 56.017 C 43.895 53.777 48.835 60.447 48.835 69.597 Z" style="stroke-width: 8;"/>
+</svg>

@@ -1,0 +1,15 @@
+__pycache__
+node_modules
+dist
+ssl
+env
+
+.vs
+.vscode
+
+*.log
+.env
+*.key
+
+# Add other files/folder that
+# should be ignored by git.

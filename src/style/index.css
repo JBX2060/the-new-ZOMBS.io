@@ -1,0 +1,224 @@
+@import "./Ui.css";
+@import "./UiAnnouncementOverlay.css";
+@import "./UiBuffBar.css";
+@import "./UiBuildingOverlay.css";
+@import "./UiChat.css";
+@import "./UiDayNightOverlay.css";
+@import "./UiDayNightTicker.css";
+@import "./UiHealthBar.css";
+@import "./UiIntro.css";
+@import "./UiLeaderboard.css";
+@import "./UiMap.css";
+@import "./UiMenu.css";
+@import "./UiMenuIcons.css";
+@import "./UiMenuParty.css";
+@import "./UiMenuSettings.css";
+@import "./UiMenuShop.css";
+@import "./UiPartyIcons.css";
+@import "./UiPipOverlay.css";
+@import "./UiPopupOverlay.css";
+@import "./UiReconnect.css";
+@import "./UiResources.css";
+@import "./UiRespawn.css";
+@import "./UiShieldBar.css";
+@import "./UiSpellIcons.css";
+@import "./UiToolbar.css";
+@import "./UiTooltipComponent.css";
+@import "./Assets.css";
+@import "./Doorbell.io.css";
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: none;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.btn {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  background: #444;
+  color: #eee;
+  border: 0;
+  font-size: 14px;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn:hover, .btn:active {
+  background-color: #555;
+  color: #fff;
+}
+
+.btn-green {
+  background-color: #47950d;
+}
+
+.btn-green:hover, .btn-green:active {
+  background-color: #64b820;
+}
+
+.btn-red {
+  background-color: #b3353c;
+}
+
+.btn-red:hover, .btn-red:active {
+  background-color: #cb575b;
+}
+
+.btn-blue {
+  background-color: #1d8dee;
+}
+
+.btn-blue:hover, .btn-blue:active {
+  background-color: #4fa7ee;
+}
+
+.btn-purple {
+  background-color: #7237e4;
+}
+
+.btn-purple:hover, .btn-purple:active {
+  background-color: #8259e4;
+}
+
+.btn-gold {
+  background-color: #bf6509;
+}
+
+.btn-gold:hover, .btn-gold:active {
+  background-color: #bf7b3c;
+}
+
+.btn-twitter {
+  background-color: #1b95e0;
+}
+
+.btn-twitter:hover, .btn-twitter:active {
+  background-color: #0c7abf;
+}
+
+.btn-facebook {
+  background-color: #4267b2;
+}
+
+.btn-facebook:hover, .btn-facebook:active {
+  background-color: #365899;
+}
+
+.btn-google {
+  background-color: #dd4b39;
+}
+
+.btn-google:hover, .btn-google:active {
+  background-color: #ba3f31;
+}
+
+.btn-discord {
+  background-color: #7289da;
+}
+
+.btn-discord:hover, .btn-discord:active {
+  background-color: #5a6db0;
+}
+
+.btn-youtube {
+  background-color: #e52d27;
+}
+
+.btn-youtube:hover, .btn-youtube:active {
+  background-color: #ba2521;
+}
+
+.hud-loading, .hud-loading::after {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.hud-loading {
+  display: inline-block;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 0.4em solid rgba(255, 255, 255, 0.2);
+  border-right: 0.4em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 0.4em solid rgba(255, 255, 255, 0.2);
+  border-left: 0.4em solid #eee;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  animation-name: hud-loading;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes hud-loading {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.hud-resource-low {
+  color: #c9523c !important;
+}
+
+.error {
+  display: block;
+  max-width: 480px;
+  margin: 120px auto;
+  text-align: center;
+  color: #777;
+}
+
+.error strong {
+  color: #eee;
+}
+
+.error small {
+  display: block;
+  color: #555;
+}

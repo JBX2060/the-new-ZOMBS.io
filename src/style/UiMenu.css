@@ -1,0 +1,34 @@
+/**
+* UiMenu
+*/
+
+.hud-menu .hud-menu-close {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  opacity: 0.2;
+  transition: all 0.15s ease-in-out;
+}
+
+.hud-menu .hud-menu-close:hover, .hud-menu .hud-menu-close:active {
+  opacity: 0.4;
+}
+
+.hud-menu .hud-menu-close::before, .hud-menu .hud-menu-close::after {
+  content: ' ';
+  position: absolute;
+  left: 25px;
+  height: 30px;
+  width: 2px;
+  background: #eee;
+}
+
+.hud-menu .hud-menu-close::before {
+  transform: rotate(45deg);
+}
+
+.hud-menu .hud-menu-close::after {
+  transform: rotate(-45deg);
+}

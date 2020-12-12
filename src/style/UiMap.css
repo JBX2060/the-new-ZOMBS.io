@@ -1,0 +1,52 @@
+/**
+* UiMap
+*/
+
+.hud-map {
+  display: block;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-map .hud-map-player {
+  display: none;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  background: #eee;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.hud-map .hud-map-player[data-index='0'] {
+  background: #8473d4;
+}
+
+.hud-map .hud-map-player[data-index='1'] {
+  background: #d6ab35;
+}
+
+.hud-map .hud-map-player[data-index='2'] {
+  background: #76bd2f;
+}
+
+.hud-map .hud-map-player[data-index='3'] {
+  background: #d67820;
+}
+
+.hud-map .hud-map-building {
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  margin: -1px 0 0 -1px;
+  background: #875f45;
+  border-radius: 50%;
+  z-index: 1;
+}

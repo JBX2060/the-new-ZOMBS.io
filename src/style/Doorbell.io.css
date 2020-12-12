@@ -1,0 +1,66 @@
+/**
+* Doorbell.io
+*/
+
+#doorbell form.dark {
+  background: #161616;
+  border: 0;
+  box-shadow: none;
+}
+
+#doorbell form legend {
+  color: #eee;
+  border: 0;
+  font-family: 'Hammersmith One', sans-serif;
+  font-weight: bold;
+}
+
+#doorbell-container .close {
+  color: #eee;
+  text-shadow: none;
+  opacity: 0.2;
+}
+
+#doorbell form textarea, #doorbell form input[type=email] {
+  display: block;
+  width: 94%;
+  background: #eee;
+  border: 0;
+  font-size: 14px;
+  padding: 10px 3%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+#doorbell .buttons button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 28px;
+  padding: 6px 20px;
+  margin: 10px 0 0;
+  background: #47950d;
+  color: #eee;
+  border: 0;
+  font-size: 14px;
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.15s ease-in-out;
+}
+
+#doorbell .buttons button:hover, #doorbell .buttons button:active {
+  cursor: pointer;
+  background: #64b820;
+}
+
+#doorbell #doorbell-powered-by {
+  margin: 10px 0 0;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+#doorbell #doorbell-powered-by:hover, #doorbell #doorbell-powered-by:active {
+  color: rgba(255, 255, 255, 0.8);
+}

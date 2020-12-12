@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="96" height="70" viewBox="0 0 140 102" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#41f384;stroke-width:8px;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#666;}.cls-2,.cls-3{stroke-width:6px;}.cls-3{fill:#41f384;}</style>
+  </defs>
+  <rect class="cls-2" x="55.855" y="25.921" width="26.5" height="13.51" rx="6.76" ry="6.76"/>
+  <rect class="cls-2" x="55.855" y="63.031" width="26.5" height="13.51" rx="6.76" ry="6.76"/>
+  <rect class="cls-3" y="16" width="60" height="70" rx="15.63" ry="15.63" x="3"/>
+  <path class="cls-1" d="M 135 50.98 C 135 75.853 117.123 96 95.061 96 C 73 96 76.052 77.624 76.052 52.761 C 76.052 27.898 73.02 6 95.061 6 C 117.102 6 135 26.117 135 50.98 Z"/>
+  <circle class="cls-2" cx="496.84" cy="513.01" r="18.79" transform="matrix(0.7092, -0.705005, 0.705006, 0.709202, -609.461121, 36.664059)"/>
+  <circle class="cls-3" cx="496.84" cy="513.01" r="8.1" transform="matrix(0.709203, -0.705006, 0.705005, 0.709202, -609.579895, 36.664658)"/>
+</svg>

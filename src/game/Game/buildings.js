@@ -1,0 +1,132 @@
+export default {
+  "Wall": {
+    "name": "Wall",
+    "description": "Blocks enemies from reaching your towers.",
+    "key": "1",
+    "modelName": "WallModel",
+    "gridWidth": 1,
+    "gridHeight": 1,
+    "tiers": 1,
+    "built": 0,
+    "limit": 250,
+    "disabled": true
+  },
+  "Door": {
+    "name": "Door",
+    "description": "Allows party members to enter your base.",
+    "key": "2",
+    "modelName": "DoorModel",
+    "gridWidth": 1,
+    "gridHeight": 1,
+    "tiers": 1,
+    "built": 0,
+    "limit": 40,
+    "disabled": true
+  },
+  "SlowTrap": {
+    "name": "Slow Trap",
+    "description": "Slows enemies from entering your base.",
+    "key": "3",
+    "modelName": "SlowTrapModel",
+    "gridWidth": 1,
+    "gridHeight": 1,
+    "tiers": 1,
+    "built": 0,
+    "limit": 12,
+    "disabled": true
+  },
+  "ArrowTower": {
+    "name": "Arrow Tower",
+    "description": "Single target, fast firing tower.",
+    "key": "4",
+    "modelName": "ArrowTowerModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 6,
+    "disabled": true
+  },
+  "CannonTower": {
+    "name": "Cannon Tower",
+    "description": "Area of effect damage, slow firing tower.",
+    "key": "5",
+    "modelName": "CannonTowerModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 6,
+    "disabled": true
+  },
+  "MeleeTower": {
+    "name": "Melee Tower",
+    "description": "High damage, single target, close-range directional tower.",
+    "key": "6",
+    "modelName": "MeleeTowerModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 6,
+    "disabled": true
+  },
+  "BombTower": {
+    "name": "Bomb Tower",
+    "description": "Large area of effect damage, very slow firing tower.",
+    "key": "7",
+    "modelName": "BombTowerModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 6,
+    "disabled": true
+  },
+  "MagicTower": {
+    "name": "Mage Tower",
+    "description": "Multiple projectile, short range, fast firing tower.",
+    "key": "8",
+    "modelName": "MageTowerModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 6,
+    "disabled": true
+  },
+  "GoldMine": {
+    "name": "Gold Mine",
+    "description": "Generates gold every second for your party. Gold gain is multiplied by the number of players in your party.",
+    "key": "9",
+    "modelName": "GoldMineModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 8,
+    "disabled": true
+  },
+  "Harvester": {
+    "name": "Resource Harvester",
+    "description": "Harvests resources automatically, fuelled by gold. Hit with a pickaxe to collect.",
+    "key": "0",
+    "modelName": "HarvesterModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 2,
+    "disabled": true
+  },
+  "GoldStash": {
+    "name": "Gold Stash",
+    "description": "Establishes your base and holds your gold. Protect this!",
+    "modelName": "GoldStashModel",
+    "gridWidth": 2,
+    "gridHeight": 2,
+    "tiers": 1,
+    "built": 0,
+    "limit": 1
+  }
+};

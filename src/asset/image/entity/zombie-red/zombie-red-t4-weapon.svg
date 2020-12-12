@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="150" height="44" viewBox="0 0 240 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#4d4d4d;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:8px;}.cls-2{fill:#875f45;}.cls-3{fill:#c83c43;}</style>
+  </defs>
+  <g id="weapons" transform="matrix(1, 0, 0, 1, 75.822281, 2.252235)">
+    <rect class="cls-1" x="56.51" y="31.42" width="50.55" height="20.55" rx="4.33" ry="4.33" transform="translate(55.28 111.07) rotate(-90)"/>
+    <rect class="cls-2" x="4" y="23.75" width="91.02" height="11.26" rx="4.03" ry="4.03"/>
+    <path class="cls-1" d="M126.41,30.82H97.48a4.26,4.26,0,0,0-2.46.78l-9.78,6.9a4.26,4.26,0,0,0,0,7L95,52.36a4.26,4.26,0,0,0,2.46.78h28.92a4.26,4.26,0,0,0,2.46-.78l9.78-6.9a4.26,4.26,0,0,0,0-7l-9.78-6.9A4.26,4.26,0,0,0,126.41,30.82Z" transform="translate(15.19 -12.41)"/>
+    <circle class="cls-3" cx="3.66" cy="46.29" r="13.25" transform="translate(-27.58 34.74) rotate(-86.54)"/>
+    <circle class="cls-3" cx="54.47" cy="46.14" r="13.25" transform="translate(20.31 85.32) rotate(-86.54)"/>
+  </g>
+</svg>

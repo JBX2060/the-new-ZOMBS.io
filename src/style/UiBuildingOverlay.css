@@ -1,0 +1,223 @@
+/**
+* UiBuildingOverlay
+*/
+
+.hud-building-overlay {
+  width: 360px;
+  z-index: 10;
+}
+
+.hud-building-overlay .hud-tooltip-building {
+  width: 340px;
+}
+
+.hud-building-overlay .hud-tooltip-body {
+  margin: 0;
+}
+
+.hud-building-overlay .hud-tooltip-health {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 100px;
+  height: 34px;
+  padding: 4px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.hud-building-overlay .hud-tooltip-health::after {
+  display: block;
+  content: 'HP';
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  bottom: 5px;
+  line-height: 27px;
+  font-size: 12px;
+  font-family: 'Hammersmith One', sans-serif;
+  color: #eee;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+}
+
+.hud-building-overlay .hud-tooltip-health .hud-tooltip-health-bar {
+  display: block;
+  height: 26px;
+  background: #64a10a;
+  border-radius: 3px;
+  transition: width 0.15s ease-in-out;
+}
+
+.hud-building-overlay .hud-building-stats {
+  position: relative;
+  margin: 15px 0 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.hud-building-overlay .hud-building-stats::after {
+  display: block;
+  content: ' ';
+  visibility: hidden;
+  clear: both;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values:first-child {
+  padding: 0 20px 0 0;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values:last-child {
+  padding: 0 0 0 16px;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values:first-child::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid rgba(255, 255, 255, 0.2);
+  margin: -8px 0 0 -8px;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values p {
+  display: block;
+  margin: 5px 0 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values p:first-child {
+  margin-top: 0;
+}
+
+.hud-building-overlay .hud-building-stats .hud-stats-values p strong {
+  color: #eee;
+}
+
+.hud-building-overlay .hud-building-actions {
+  margin: 20px 0 0;
+}
+
+.hud-building-overlay .hud-building-dual-btn {
+  position: relative;
+  display: block;
+  height: 40px;
+  margin: 0 0 6px;
+}
+
+.hud-building-overlay .hud-building-dual-btn .hud-building-deposit {
+  position: relative;
+  display: block;
+  float: left;
+  width: 167px;
+  padding: 0 10px;
+  margin: 0 6px 0 0;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.hud-building-overlay .hud-building-dual-btn .hud-building-deposit small {
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+}
+
+.hud-building-overlay .hud-building-dual-btn .hud-building-deposit.is-disabled {
+  background: #7237e4 !important;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.hud-building-overlay .hud-building-dual-btn .hud-building-collect {
+  position: relative;
+  display: block;
+  float: left;
+  width: 167px;
+  padding: 0 10px;
+  margin: 0;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.hud-building-overlay .hud-building-upgrade {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  margin: 0 0 6px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.hud-building-overlay .hud-building-upgrade::after {
+  content: '(E)';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  line-height: 36px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 10px 0 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hud-building-overlay .hud-building-upgrade small {
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+}
+
+.hud-building-overlay .hud-building-upgrade .hud-resource-low {
+  color: #f0958c !important;
+}
+
+.hud-building-overlay .hud-building-upgrade.is-disabled {
+  background: #47950d !important;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}
+
+.hud-building-overlay .hud-building-sell {
+  position: relative;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.hud-building-overlay .hud-building-sell::after {
+  content: '(T)';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  line-height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 10px 0 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hud-building-overlay .hud-building-sell small {
+  font-family: 'Open Sans', sans-serif;
+  pointer-events: none;
+}
+
+.hud-building-overlay .hud-building-sell.is-disabled {
+  background: #b3353c !important;
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+}

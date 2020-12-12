@@ -1,0 +1,7 @@
+ms_per_tick: 50
+port: 34527
+
+map_width: 24000
+map_height: 24000
+
+default_nickname: "Player"

@@ -1,0 +1,127 @@
+/**
+* UiMenuSettings
+*/
+
+.hud-menu-settings {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 420px;
+  margin: -270px 0 0 -300px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #eee;
+  border-radius: 4px;
+  z-index: 15;
+}
+
+.hud-menu-settings h3 {
+  display: block;
+  margin: 0;
+  line-height: 20px;
+}
+
+.hud-menu-settings .hud-settings-grid {
+  display: block;
+  position: relative;
+  height: 340px;
+  margin: 20px 0 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  border-radius: 3px;
+}
+
+.hud-menu-settings .hud-settings-grid label {
+  display: block;
+  margin: 0 0 20px;
+  cursor: default;
+}
+
+.hud-menu-settings .hud-settings-grid label:last-child {
+  margin-bottom: 0;
+}
+
+.hud-menu-settings .hud-settings-grid label > span {
+  display: block;
+  margin: 0 0 8px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-controls {
+  display: block;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+  padding: 0;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-controls li {
+  display: inline-block;
+  width: 49%;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-controls li strong {
+  color: #eee;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints {
+  display: block;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0 0 48px;
+  margin: 0 0 4px;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li:last-child {
+  margin-bottom: 0;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  margin: -16px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-base {
+  background-image: url('/asset/image/ui/entities/entities-gold-stash.svg');
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-resources {
+  background-image: url('/asset/image/ui/entities/entities-tree.svg');
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-towers {
+  background-image: url('/asset/image/ui/entities/entities-arrow-tower.svg');
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-gold-mine {
+  background-image: url('/asset/image/ui/entities/entities-gold-mine.svg');
+}
+
+.hud-menu-settings .hud-settings-grid .hud-settings-hints li .hud-settings-hints-shop {
+  background-image: url('/asset/image/ui/icons/icons-shop.svg');
+  background-size: auto;
+  background-repeat: no-repeat;
+}

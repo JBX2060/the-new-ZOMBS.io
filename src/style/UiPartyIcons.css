@@ -1,0 +1,76 @@
+/**
+* UiPartyIcons
+*/
+
+.hud-party-icons {
+  display: block;
+  position: relative;
+  width: 220px;
+  height: 40px;
+  z-index: 10;
+}
+
+.hud-party-icons .hud-party-member {
+  position: relative;
+  display: block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 0 0 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.4);
+  color: #eee;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.hud-party-icons .hud-party-member::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  right: 4px;
+  background: #eee;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.hud-party-icons .hud-party-member:hover, .hud-party-icons .hud-party-member:active {
+  cursor: help;
+}
+
+.hud-party-icons .hud-party-member span {
+  position: relative;
+  z-index: 2;
+}
+
+.hud-party-icons .hud-party-member.is-empty {
+  background: rgba(0, 0, 0, 0.2) !important;
+  pointer-events: none;
+}
+
+.hud-party-icons .hud-party-member.is-empty::before {
+  display: none;
+}
+
+.hud-party-icons .hud-party-member[data-index='0']::before {
+  background: #8473d4;
+}
+
+.hud-party-icons .hud-party-member[data-index='1']::before {
+  background: #d6ab35;
+}
+
+.hud-party-icons .hud-party-member[data-index='2']::before {
+  background: #76bd2f;
+}
+
+.hud-party-icons .hud-party-member[data-index='3']::before {
+  background: #d67820;
+}

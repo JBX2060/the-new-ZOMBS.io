@@ -1,0 +1,1 @@
+export default ["Tree", "Stone", "NeutralCamp", "Harvester", "Wall", "ArrowTower"]

@@ -1,0 +1,25 @@
+/**
+* UiShieldBar
+*/
+
+.hud-shield-bar {
+  display: none;
+  position: relative;
+  width: 220px;
+  height: 22px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 20px 0 -15px !important;
+  padding: 5px;
+  font-family: 'Hammersmith One', sans-serif;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-shield-bar .hud-shield-bar-inner {
+  display: block;
+  height: 12px;
+  background: #3da1d9;
+  border-radius: 3px;
+  transition: width 0.2s linear;
+}

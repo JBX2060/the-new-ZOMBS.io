@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="120" height="120" viewBox="0 0 172.5 172.5" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#845e48;stroke-width:10px;}.cls-1,.cls-2{stroke:#333;stroke-miterlimit:10;}.cls-2{fill:#dda95e;stroke-width:8px;}</style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1" transform="matrix(1, 0, 0, 1, 17.166056, 15.44945)">
+    <rect class="cls-1" x="64" y="53" width="128" height="128" rx="12" ry="12" transform="translate(186 -59) rotate(90)" style="stroke-width: 8;"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2" transform="matrix(1, 0, 0, 1, 17.166056, 15.44945)">
+    <circle class="cls-2" cx="34.07" cy="35.13" r="16.87"/>
+    <circle class="cls-2" cx="32.07" cy="60.13" r="16.87"/>
+    <circle class="cls-2" cx="34.07" cy="107.13" r="16.87"/>
+    <circle class="cls-2" cx="27.07" cy="86.13" r="16.87"/>
+    <circle class="cls-2" cx="61.07" cy="106.13" r="16.87"/>
+    <circle class="cls-2" cx="102.07" cy="106.13" r="16.87"/>
+    <circle class="cls-2" cx="52.07" cy="84.13" r="16.87"/>
+    <circle class="cls-2" cx="46.07" cy="49.13" r="16.87"/>
+    <circle class="cls-2" cx="78.07" cy="30.13" r="16.87"/>
+    <circle class="cls-2" cx="61.07" cy="33.13" r="16.87"/>
+    <circle class="cls-2" cx="109.07" cy="35.13" r="16.87"/>
+    <circle class="cls-2" cx="99.07" cy="64.13" r="16.87"/>
+    <circle class="cls-2" cx="95.07" cy="39.13" r="16.87"/>
+    <circle class="cls-2" cx="110.07" cy="69.13" r="16.87"/>
+    <circle class="cls-2" cx="75.07" cy="48.13" r="16.87"/>
+    <circle class="cls-2" cx="90.07" cy="61.13" r="16.87"/>
+    <circle class="cls-2" cx="104.07" cy="91.13" r="16.87"/>
+    <circle class="cls-2" cx="78.07" cy="105.13" r="16.87"/>
+    <circle class="cls-2" cx="59.07" cy="61.13" r="16.87"/>
+    <circle class="cls-2" cx="80.07" cy="81.13" r="16.87"/>
+  </g>
+</svg>

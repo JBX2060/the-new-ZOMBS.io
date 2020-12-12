@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="80" height="80" viewBox="0 0 123 123" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#845e48;opacity:0.8;}.cls-2{fill:none;stroke:#333;stroke-miterlimit:10;stroke-width:10px;}.cls-3{fill:gray;}.cls-4{fill:#333;}</style>
+  </defs>
+  <rect class="cls-1" x="32" y="32" width="64" height="64" rx="11.95" ry="11.95" transform="matrix(0, 1, -1, 0, 124.69339, -3.715116)"/>
+  <rect class="cls-2" x="32" y="32" width="64" height="64" rx="11.95" ry="11.95" transform="matrix(0, 1, -1, 0, 124.69339, -3.715116)"/>
+  <rect class="cls-3" x="82.693" y="53.285" width="5" height="13"/>
+  <rect class="cls-3" x="62" y="33" width="5" height="13" transform="matrix(0, -1, 1, 0, 21.693403, 100.284882)"/>
+  <rect class="cls-3" x="62" y="82" width="5" height="13" transform="matrix(0, -1, 1, 0, -27.30661, 149.284882)"/>
+  <rect class="cls-4" x="33.4" y="42.44" width="7" height="36"/>
+  <rect class="cls-4" x="81.081" y="42.215" width="7" height="36"/>
+  <rect class="cls-4" x="60.5" y="69.5" width="7" height="36" transform="matrix(0, -1, 1, 0, -26.80661, 148.078156)"/>
+  <rect class="cls-4" x="63.179" y="22.5" width="7.31" height="36" transform="matrix(0, -1, 1, 0, 20.038399, 103.22216)"/>
+</svg>

@@ -1,0 +1,75 @@
+/**
+* UiLeaderboard
+*/
+
+.hud-leaderboard {
+  position: relative;
+  display: block;
+  width: 280px;
+  color: #eee;
+  font-family: 'Hammersmith One', sans-serif;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: 10;
+}
+
+.hud-leaderboard .hud-leaderboard-player {
+  position: relative;
+  display: block;
+  margin: 0 0 8px;
+  padding: 0 90px 0 40px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hud-leaderboard .hud-leaderboard-player:last-child {
+  margin-bottom: 0;
+}
+
+.hud-leaderboard .hud-leaderboard-player.is-header * {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.hud-leaderboard .hud-leaderboard-player .player-rank {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hud-leaderboard .hud-leaderboard-player .player-name {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+}
+
+.hud-leaderboard .hud-leaderboard-player .player-score {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hud-leaderboard .hud-leaderboard-player .player-wave {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.hud-leaderboard .hud-leaderboard-player.is-active {
+  color: rgba(216, 191, 73, 1);
+}
+
+.hud-leaderboard .hud-leaderboard-player.is-active .player-score {
+  color: rgba(216, 191, 73, 1);
+}
+
+.hud-leaderboard .hud-leaderboard-player.is-active .player-wave {
+  color: rgba(216, 191, 73, 0.7);
+}

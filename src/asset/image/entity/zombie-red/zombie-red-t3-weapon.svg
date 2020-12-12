@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="126" height="41" viewBox="-22 -10 170 54" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1{fill:#875f45;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:8px;}.cls-2{fill:#4d4d4d;}.cls-3{fill:#da4048;}</style>
+    <style>.cls-1{fill:#4d4d4d;}.cls-1,.cls-2,.cls-3{stroke:#333;stroke-miterlimit:10;stroke-width:8px;}.cls-2{fill:#875f45;}.cls-3{fill:#da4048;}</style>
+  </defs>
+  <g id="weapons" transform="matrix(1, 0, 0, 1, 29.984173, -6.330401)">
+    <rect class="cls-1" x="58.6" y="40.43" width="36.24" height="14.73" rx="4.33" ry="4.33" transform="translate(22.85 98.84) rotate(-90)"/>
+    <rect class="cls-2" x="4" y="18.16" width="65.24" height="8.07" rx="4.03" ry="4.03"/>
+    <path class="cls-1" d="M108.31,40h-20a4.26,4.26,0,0,0-2.46.78l-5.3,3.74a4.26,4.26,0,0,0,0,7l5.3,3.74a4.26,4.26,0,0,0,2.46.78h20a4.26,4.26,0,0,0,2.46-.78l5.3-3.74a4.26,4.26,0,0,0,0-7l-5.3-3.74A4.26,4.26,0,0,0,108.31,40Z" transform="translate(-6.08 -25.68)"/>
+    <circle class="cls-3" cx="20.72" cy="51.09" r="9.5" transform="translate(-37.61 43.01) rotate(-86.54)"/>
+    <circle class="cls-3" cx="57.14" cy="50.99" r="9.5" transform="translate(-3.28 79.27) rotate(-86.54)"/>
+  </g>
+</svg>
