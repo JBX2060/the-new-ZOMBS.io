@@ -1,4 +1,4 @@
-# JackZom.io
+# ZOMBIA.io
 ### Tired of the old ZOMBS.io? Try the new one!
 
 A game written in JavaScript (mostly)
