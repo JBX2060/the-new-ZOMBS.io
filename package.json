@@ -79,6 +79,8 @@
     "yaml": "^1.7.2"
   },
   "dependencies": {
+    "concurrently": "^5.3.0",
+    "localtunnel": "^2.0.0",
     "pm2": "^4.2.3",
     "yarn": "^1.22.10"
   },
@@ -93,6 +95,7 @@
     "production:client": "pm2 serve dist/client 8080 --spa",
     "production:server": "pm2 start dist/server/index.js",
     "production:api": "cd src/api && PRODUCTION=true gunicorn -b 127.0.0.1:8008 wsgi --daemon",
-    "production:discord-bot": "cd src/discord/bot && nohup python index.py &"
+    "production:discord-bot": "cd src/discord/bot && nohup python index.py &",
+    "start": "concurrently --kill-others \"npm run client --host 0.0.0.0  --disable-host-check\" \"npm run server --host 0.0.0.0  --disable-host-check\""
   }
 }
