@@ -12,7 +12,7 @@ it isn't, [check this](https://git-scm.com/book/en/v2/Getting-Started-Installing
 Then you can clone it
 by executing the following
 command in a terminal:
-`git clone https://github.com/Jiankun-Huang/JackZom.io.git`.
+`git clone https://github.com/Jiankun-Huang/the-new-ZOMBS.io.git`.
 Then enter the created directory
 using `cd the-new-ZOMBS.io`.
 
