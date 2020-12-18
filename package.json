@@ -85,7 +85,7 @@
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "client": "webpack-dev-server --config webpack.dev.js",
+    "client": "webpack-dev-server --host 0.0.0.0  --disable-host-check --config webpack.dev.js",
     "server": "nodemon src/server/index.js",
     "api": "cd src/api && python index.py",
     "cli": "babel-node src/server/Cli/Connect.js",
@@ -96,6 +96,6 @@
     "production:server": "pm2 start dist/server/index.js",
     "production:api": "cd src/api && PRODUCTION=true gunicorn -b 127.0.0.1:8008 wsgi --daemon",
     "production:discord-bot": "cd src/discord/bot && nohup python index.py &",
-    "start": "concurrently --kill-others \"npm run client --host 0.0.0.0  --disable-host-check\" \"npm run server --host 0.0.0.0  --disable-host-check\""
+    "start": "concurrently --kill-others \"npm run client\" \"npm run server\""
   }
 }
